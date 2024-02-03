@@ -8,5 +8,6 @@ public class main {
         System.out.println("Radius: " + radius);
         System.out.println("Diameter 2: " + diameter2);
         circle.draw();
+        circle.displayLocation();
     }
 }
