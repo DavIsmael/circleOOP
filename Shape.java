@@ -14,7 +14,7 @@ public abstract class Shape {
         this.y2 = y2;
     }
     public void displayLocation(){
-        System.out.println("x1: " + this.x + ", x2: " + this.x2 + ", y1: " + this.y + ", y2: " + this.y2 + " coordinates of " + this + " circle?");
+        System.out.println("x1: " + this.x + ", x2: " + this.x2 + ", y1: " + this.y + ", y2: " + this.y2 + " coordinates of circle");
     }
     public abstract void draw();
 }
